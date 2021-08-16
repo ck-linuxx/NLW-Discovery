@@ -1,3 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
 html{
     --black: #0D114F;
     --white: #FAFAFA;
@@ -12,7 +20,7 @@ html{
     --grey-blue: #A1B2CD;
     --grey-medium: #D3D9E2;
     --grey-light: #E5EAF1;
-    
+
     --hover-blue: #5699FF;
     --hover-red: #EA4B65;
     --hover-grey: #8794A7;
