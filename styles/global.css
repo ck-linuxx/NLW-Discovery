@@ -24,4 +24,15 @@ html{
     --hover-blue: #5699FF;
     --hover-red: #EA4B65;
     --hover-grey: #8794A7;
+
+    font-size: 62.6%; /*10px*/
+}
+
+body{
+    height: 100vh;
+    background: var(--background);
+}
+
+body, button, input, textarea{
+    font-size: clamp(14px, 1.6rem, 2vw) ;
 }
