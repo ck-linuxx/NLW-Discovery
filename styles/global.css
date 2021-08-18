@@ -26,6 +26,10 @@ html{
     --hover-grey: #8794A7;
 
     font-size: 62.6%; /*10px*/
+
+    /*Fontes*/
+    --openSans: font-family: 'Open Sans', sans-serif;
+    --poppins:  font-family: 'Poppins', sans-serif;
 }
 
 body{
@@ -37,5 +41,22 @@ body, button, input, textarea{
     /*clam= intervalo de tamanho, meno tamanho = 14px, tamanho padrão = 1.6rem, maior densidade = 2vw*/
     font-size: clamp(14px, 1.6rem, 2vw) ;
 
-    font-family: ;
+    font-family: var(--poppins);
+}
+
+.content{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.sr-only{
+    position: absolute;
+    height: 1px;
+    width: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip-path: rect(0,0,0,0);
+    white-space: nowrap;
+    border-width: 0;
 }
