@@ -28,8 +28,8 @@ html{
     font-size: 62.6%; /*10px*/
 
     /*Fontes*/
-    --openSans: font-family: 'Open Sans', sans-serif;
-    --poppins:  font-family: 'Poppins', sans-serif;
+    --openSans:'Open Sans', sans-serif;
+    --poppins: 'Poppins', sans-serif;
 }
 
 body{
