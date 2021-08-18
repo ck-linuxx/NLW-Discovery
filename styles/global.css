@@ -34,5 +34,8 @@ body{
 }
 
 body, button, input, textarea{
+    /*clam= intervalo de tamanho, meno tamanho = 14px, tamanho padrão = 1.6rem, maior densidade = 2vw*/
     font-size: clamp(14px, 1.6rem, 2vw) ;
+
+    font-family: ;
 }
