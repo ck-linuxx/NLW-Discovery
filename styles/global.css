@@ -99,3 +99,12 @@ button.outlined,
     color: var(--blue);
     border: 0.2rem solid var(--blue);
 }
+
+.content header{
+    width: 80%;
+    margin: 3.5rem auto;
+}
+
+.content header image{
+    width: 16.7rem;
+}
