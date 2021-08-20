@@ -50,6 +50,21 @@ input, button, .button{
 }
 
 /*Separator liine*/
+.separator{
+    display: flex;
+    align-items: center;
+}
+
+.separator div:nth-child(2){
+    color: var(--grey-blue);
+    font-family: var(--poppins);
+    font-weight: 400;
+    /* esse 0 que dizer no eixo Y, já o 1.35rem eixo x*/
+    padding: 0 1.35rem;
+    line-height: center;
+    margin: 4rem 0;
+}
+
 .separator div:nth-child(1),
 .separator div:nth-child(3){
     background: var(--grey-blue);
